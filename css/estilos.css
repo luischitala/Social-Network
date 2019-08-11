@@ -112,7 +112,7 @@ main .contenido-principal .publicar .foto a {
 	margin-top: 20px;
 }
 main .contenido-principal .publicar .foto img{
-	width: 100;
+	width: 100%;
 }
 
 main .contenido-principal .publicar form textarea{
@@ -154,4 +154,23 @@ main .contenido-principal .publicar form button{
 }
 main .contenido-principal .publicar form button:hover{
 	background: linear-gradient(to bottom, #1176b6 0%, #1a87cd 100%);
+}
+/*Publicaciones*/
+main .publicacion {
+	margin-bottom: 40px;
+
+}
+main .publicacion .foto{
+	padding-left: 15px;
+	margin-right: 15px;
+}
+main .publicacion .foto a{
+	display: inline-block;
+	width:60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 100px;
+}
+main .publicacion .foto a img{
+	width: 100%;
 }
