@@ -352,4 +352,25 @@ main .barra-lateral-izquierda nav a{
 main .barra-lateral-izquierda nav a:hover{
 	color:#3d3c3c;
 	background: #fff;
-	{
+}
+
+@media screen and (max-width: 757px){
+	header .menu{
+		padding: 0 15px 15px 15px;
+	}
+	main .contenido-principal .publicar .foto a {
+		width: 40px	
+		height:40px;
+		margin: 0;
+	}
+	main .publicacion .foto a{
+		width: 40px;
+		height: 40px;
+
+	}
+} 
+@media screen and (max-width: 300px){
+	main .contenido-principal .publicar .foto{
+		display: none;
+	}
+}
