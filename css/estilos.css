@@ -174,3 +174,117 @@ main .publicacion .foto a{
 main .publicacion .foto a img{
 	width: 100%;
 }
+main .publicacion .nombre {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+main .publicacion .texto{
+	background: #fff;
+	color: #3d3c3c;
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+main .publicacion .imagen{
+	padding: 15px;
+	background: #fff;
+	margin-bottom: 15px;
+
+}
+main .publicacion .imagen img{
+	width: 100%;
+}
+main .publicacion .caja-botones{
+	margin-bottom: 20px;
+}
+main .publicacion .post .caja-botones button {
+	background: #1176b6;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+	display: inline-block;;
+	font-size: 18px;
+	line-height: 18px;
+	border-radius: 4px;
+	border:none;
+}
+main .publicacion .post .caja-botones button:hover{
+	background: #0d659d;
+}
+main .publicacion .post .caja-botones p{
+	margin-bottom: 0;
+	color: #1782c6;
+}
+/*comentarios*/
+main .publicacion .comentario {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cbcbcb;
+}
+main .publicacion .comentario .foto{
+	padding-left: 0;
+	margin-right: 15px;
+}
+main .publicacion .comentario .foto a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+main .publicacion .comentario form textarea{
+	width: 100px;
+	background: #fff;
+	border:1px solid #cbcbcb;
+	color:#565656;
+	padding: 8px;
+	min-height: 40px;
+	height: 40px;
+	min-width: 100%;
+	max-width: 100%;
+	font-size: 14px;
+}
+
+main .publicacion .comentario .respuesta{
+	font-size: 14px;
+	margin-bottom: 10px
+}
+main .publicacion .comentario .me-gusta{
+	font-size: 14px;
+}
+
+/*Barra Derecha*/
+
+main .barra-lateral-derecha h3{
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+main .barra-lateral-derecha .ads{
+	margin-bottom: 20px;
+
+}
+main .barra-lateral-derecha .ads a{
+	margin-bottom: 15px;
+	display: inline-block;
+
+}
+main .barra-lateral-derecha .ads a img{
+	width: 100%;
+}
+/*Footer*/
+main footer{
+	font-size: 14px;
+	font-family: "Roboto",sans-serif;
+}
+main footer a{
+	color: #1176b6;
+	line-height: 14px;
+	margin-right: 10px;
+}
+main footer .copyright{
+	color: #919191;
+	margin-top: : 10px;
+}
